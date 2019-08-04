@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "cd819f34-3ff7-4a20-b5e2-16795741e373",
+		"name": "person-details-api-GUEST-USER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ADD-PERSON",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/api/v1/person/wallace/35",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"api",
+						"v1",
+						"person",
+						"wallace",
+						"35"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/api/v1/person",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"api",
+						"v1",
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-PERSON-BY-ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8086/api/v1/person/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8086",
+					"path": [
+						"api",
+						"v1",
+						"person",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "guest",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "p@55w0rd1",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0c2c5d1f-998b-4cfc-ba16-78a9678a973c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "79b94d6a-8af4-4f15-b95e-d60b2dff9758",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
