@@ -61,4 +61,7 @@ This guide assumes that you already have java 8 or later- and maven installed.
           Add a new person to the database:
             http://localhost:8086/api/v1/person/{name}/{age}
             Remove the curly braces and replace the variable name with the name and the variable age with the age you  want to add.
+            
+    5)Postman
+        Postman json code can be found in the postman folder.
           
