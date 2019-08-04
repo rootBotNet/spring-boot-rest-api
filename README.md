@@ -41,6 +41,16 @@ This guide assumes that you already have java 8 or later- and maven installed.
           The PersonDetailsController for the RESTful Service has a request mapping of /v1. So in order to access this
           controllers methods, you will have to append the http://localhost:8086/api path with /v1 before accessing the method.
           
+          Web security:
+            There are two users allowed to access these endpoints:
+            Admin user: Can access all the endpoints.
+              Username: admin
+              Password: p@55w0rd
+
+            Guest user: Can only access the find by id and find all endpoints.
+              Username: guest
+              Password: p@55w0rd1
+          
           Retrive all persons:
             http://localhost:8086/api/v1/person
             
