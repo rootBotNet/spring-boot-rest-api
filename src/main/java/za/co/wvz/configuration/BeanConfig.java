@@ -7,12 +7,10 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class BeanConfig {
-
     @Bean
     ServletRegistrationBean h2ServletRegistrationBean() {
         ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(new WebServlet());
         servletRegistrationBean.addUrlMappings("/console/*");
         return servletRegistrationBean;
     }
-
 }

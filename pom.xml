@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>assessment.zyl.van.wallace</groupId>
-    <artifactId>springboot-rest-api-metric-imperial-conversion</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>za.co.wvz.springboot-rest-api</groupId>
+    <artifactId>springboot-rest-api</artifactId>
+    <version>springboot-rest-api-v1.0</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
